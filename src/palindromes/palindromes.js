@@ -4,7 +4,7 @@ const isPalindrome = (sentence) => {
   sentence = sentence.toLowerCase().replace(/[^a-zA-Z0-9]/g, "");
   // Your solution here
   let middle = Math.floor(sentence.length / 2);
-  const newStack = new Stack;
+  const newStack = new Stack();
 
   for (let i = 0; i < middle; i++) {
     newStack.push(sentence[i]);
